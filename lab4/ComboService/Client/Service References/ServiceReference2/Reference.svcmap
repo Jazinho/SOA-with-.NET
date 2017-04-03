@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d725e633-791c-4552-bfc7-40dc7be0bd5c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/ReviewsAndPeopleService/ReviewsAndPeopleService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="c7164bd2-5df2-4f05-a895-de371b04071a" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ReviewsAndPeopleService/ReviewsAndPeopleService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="d21214a5-9c0e-484c-ae2f-02cb9aec3da0" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ReviewsAndPeopleService/ReviewsAndPeopleService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="1153ae0d-2697-4baa-bc33-c1b93690e904" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ReviewsAndPeopleService/ReviewsAndPeopleService/mex" />
+    <MetadataFile FileName="Model.xsd" MetadataType="Schema" ID="a3c15d24-13c8-463c-be60-45ac8586983e" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ReviewsAndPeopleService/ReviewsAndPeopleService/mex" />
+    <MetadataFile FileName="ReviewsAndPeopleService.xsd" MetadataType="Schema" ID="0a82260c-04e7-4cae-9195-172451fe640b" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ReviewsAndPeopleService/ReviewsAndPeopleService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
