@@ -214,6 +214,19 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705081710503_InitialCreate.cs" />
+    <Compile Include="Migrations\201705081710503_InitialCreate.Designer.cs">
+      <DependentUpon>201705081710503_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705110906164_AddBookPageCount.cs" />
+    <Compile Include="Migrations\201705110906164_AddBookPageCount.Designer.cs">
+      <DependentUpon>201705110906164_AddBookPageCount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705110915336_AddAuthorCountry.cs" />
+    <Compile Include="Migrations\201705110915336_AddAuthorCountry.Designer.cs">
+      <DependentUpon>201705110915336_AddAuthorCountry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Author.cs" />
     <Compile Include="Models\Book.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -280,6 +293,17 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201705081710503_InitialCreate.resx">
+      <DependentUpon>201705081710503_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705110906164_AddBookPageCount.resx">
+      <DependentUpon>201705110906164_AddBookPageCount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705110915336_AddAuthorCountry.resx">
+      <DependentUpon>201705110915336_AddAuthorCountry.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
