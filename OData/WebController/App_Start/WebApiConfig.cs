@@ -30,6 +30,8 @@ namespace WebController
             builder.EntitySet<Game>("Games");
             builder.EntitySet<Store>("Stores");
 
+            config.Count().Filter().OrderBy().Expand().Select().MaxTop(null);
+
             builder.Function("Dalajlama").Returns<double>().Parameter<int>("Postal");
 
             config.MapODataServiceRoute(
